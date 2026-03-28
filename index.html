@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Portfolio — Data Scientist & AI Engineer</title>
+<title>Umar Faruk — Economics & Data Science</title>
 <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Mono:wght@400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
   :root {
@@ -86,13 +86,9 @@
     font-weight: 500; text-decoration: none; transition: all 0.2s; cursor: pointer;
     font-family: 'DM Sans', sans-serif;
   }
-  .btn-primary {
-    background: var(--accent); color: white; border: none;
-  }
+  .btn-primary { background: var(--accent); color: white; border: none; }
   .btn-primary:hover { background: #9583ff; transform: translateY(-2px); }
-  .btn-outline {
-    background: transparent; color: var(--text); border: 1px solid var(--border);
-  }
+  .btn-outline { background: transparent; color: var(--text); border: 1px solid var(--border); }
   .btn-outline:hover { border-color: var(--accent); color: var(--accent); }
 
   /* HERO VISUAL */
@@ -102,24 +98,17 @@
   .orb {
     width: 340px; height: 340px; border-radius: 50%;
     background: radial-gradient(circle at 35% 35%, rgba(124,106,255,0.5), rgba(0,229,192,0.2), transparent 70%);
-    filter: blur(2px);
-    position: relative;
+    filter: blur(2px); position: relative;
   }
   .orb::after {
-    content: '';
-    position: absolute; inset: 12px;
-    border-radius: 50%;
-    border: 1px solid rgba(124,106,255,0.2);
+    content: ''; position: absolute; inset: 12px;
+    border-radius: 50%; border: 1px solid rgba(124,106,255,0.2);
   }
   .float-card {
-    position: absolute;
-    background: var(--card);
-    border: 1px solid var(--border);
-    border-radius: 1rem;
-    padding: 1rem 1.25rem;
-    font-family: 'DM Mono', monospace;
-    font-size: 0.75rem;
-    backdrop-filter: blur(8px);
+    position: absolute; background: var(--card);
+    border: 1px solid var(--border); border-radius: 1rem;
+    padding: 1rem 1.25rem; font-family: 'DM Mono', monospace;
+    font-size: 0.75rem; backdrop-filter: blur(8px);
   }
   .float-card.top-left { top: 10%; left: -10%; animation: floatA 4s ease-in-out infinite; }
   .float-card.bottom-right { bottom: 10%; right: -10%; animation: floatB 5s ease-in-out infinite; }
@@ -179,8 +168,7 @@
   .project-card {
     background: var(--card); border: 1px solid var(--border);
     border-radius: 1.2rem; overflow: hidden;
-    transition: border-color 0.2s, transform 0.2s;
-    position: relative;
+    transition: border-color 0.2s, transform 0.2s; position: relative;
   }
   .project-card:hover { border-color: var(--accent); transform: translateY(-5px); }
   .project-card.featured { grid-column: span 2; }
@@ -215,8 +203,7 @@
   .project-links { display: flex; gap: 1rem; }
   .project-link {
     font-size: 0.85rem; color: var(--accent); text-decoration: none;
-    font-weight: 500; transition: color 0.2s;
-    display: flex; align-items: center; gap: 0.3rem;
+    font-weight: 500; transition: color 0.2s; display: flex; align-items: center; gap: 0.3rem;
   }
   .project-link:hover { color: #9583ff; }
 
@@ -240,22 +227,16 @@
   footer {
     text-align: center; padding: 2.5rem 4rem;
     border-top: 1px solid var(--border);
-    color: var(--muted); font-size: 0.85rem;
-    font-family: 'DM Mono', monospace;
+    color: var(--muted); font-size: 0.85rem; font-family: 'DM Mono', monospace;
   }
 
-  /* BG decoration */
   .bg-blob {
     position: fixed; pointer-events: none; z-index: 0;
     border-radius: 50%; filter: blur(80px); opacity: 0.12;
   }
   .bg-blob-1 { width: 600px; height: 600px; background: var(--accent); top: -200px; right: -100px; }
   .bg-blob-2 { width: 400px; height: 400px; background: var(--accent3); bottom: 20%; left: -100px; }
-
-  /* DIVIDER */
   .section-divider { height: 1px; background: var(--border); max-width: 1200px; margin: 0 auto; }
-
-  /* ANIMATIONS */
   .reveal { opacity: 0; transform: translateY(24px); transition: opacity 0.6s ease, transform 0.6s ease; }
   .reveal.visible { opacity: 1; transform: none; }
 
@@ -278,7 +259,7 @@
 
 <!-- NAV -->
 <nav>
-  <div class="logo">data<span>.</span>by<span>[you]</span></div>
+  <div class="logo">Umar<span>.</span>Faruk</div>
   <ul>
     <li><a href="#about">About</a></li>
     <li><a href="#skills">Skills</a></li>
@@ -291,13 +272,13 @@
 <section id="hero" style="padding-top:8rem; padding-bottom:4rem; max-width:none; width:100%;">
   <div class="hero-grid">
     <div class="hero-content">
-      <div class="tag">🤖 Data Scientist & AI Engineer</div>
+      <div class="tag">📊 Economics & Data Science</div>
       <h1>
-        Turning <span class="line-accent">raw data</span><br>
-        into <span class="line-accent2">real intelligence</span>
+        Decoding <span class="line-accent">economies</span><br>
+        with <span class="line-accent2">data & models</span>
       </h1>
       <p class="hero-desc">
-        I build machine learning systems, craft intelligent models, and transform messy datasets into insights that actually matter.
+        Economics student with a passion for econometrics, macroeconomic analysis, and data-driven research. I use statistical tools and programming to understand how the world works.
       </p>
       <div class="btn-group">
         <a href="#projects" class="btn btn-primary">View My Work</a>
@@ -307,12 +288,12 @@
     <div class="hero-visual">
       <div class="orb"></div>
       <div class="float-card top-left">
-        <div class="fc-label">MODEL ACCURACY</div>
-        <div class="fc-val">97.4%</div>
+        <div class="fc-label">GDP GROWTH RATE</div>
+        <div class="fc-val">+3.2% YoY</div>
       </div>
       <div class="float-card bottom-right">
-        <div class="fc-label">PREDICTIONS / SEC</div>
-        <div class="fc-val">12,800</div>
+        <div class="fc-label">R² (MODEL FIT)</div>
+        <div class="fc-val">0.94</div>
       </div>
     </div>
   </div>
@@ -325,32 +306,27 @@
   <div class="about-grid reveal">
     <div class="about-text">
       <div class="section-label">// about me</div>
-      <h2>Passionate about data<br>& what it can do</h2>
-      <p>Hi — I'm a Data Scientist and AI Engineer who loves taking complex problems and solving them with data. I specialize in building end-to-end ML pipelines, training neural networks, and deploying scalable AI solutions.</p>
-      <p>Whether it's computer vision, NLP, or predictive analytics — I enjoy every part of the data lifecycle, from cleaning messy CSVs to shipping production-ready models.</p>
+      <h2>Where economics<br>meets data science</h2>
+      <p>Hi, I'm Umar — an Economics student with a strong interest in econometrics and macroeconomic analysis. I enjoy using data to answer real economic questions and inform better decisions.</p>
+      <p>I combine economic theory with modern data tools to analyze trends, build models, and communicate findings clearly. From regression analysis to policy evaluation, I'm passionate about evidence-based thinking.</p>
       <div class="stat-row">
-        <div class="stat"><div class="stat-num">10+</div><div class="stat-lbl">Projects Shipped</div></div>
-        <div class="stat"><div class="stat-num">3+</div><div class="stat-lbl">Years Experience</div></div>
-        <div class="stat"><div class="stat-num">5+</div><div class="stat-lbl">Open Source Contribs</div></div>
+        <div class="stat"><div class="stat-num">10+</div><div class="stat-lbl">Projects Done</div></div>
+        <div class="stat"><div class="stat-num">3+</div><div class="stat-lbl">Years Studying</div></div>
+        <div class="stat"><div class="stat-num">5+</div><div class="stat-lbl">Tools Mastered</div></div>
       </div>
     </div>
     <div class="about-side">
-      <div class="section-label" style="margin-bottom:1.2rem;">// tech i work with</div>
+      <div class="section-label" style="margin-bottom:1.2rem;">// tools & languages</div>
       <div class="about-tags">
         <span class="skill-tag">Python</span>
-        <span class="skill-tag">TensorFlow</span>
-        <span class="skill-tag">PyTorch</span>
-        <span class="skill-tag">scikit-learn</span>
-        <span class="skill-tag">Pandas</span>
-        <span class="skill-tag">NumPy</span>
+        <span class="skill-tag">R Programming</span>
+        <span class="skill-tag">Stata</span>
+        <span class="skill-tag">Excel</span>
         <span class="skill-tag">SQL</span>
-        <span class="skill-tag">Spark</span>
-        <span class="skill-tag">Docker</span>
-        <span class="skill-tag">FastAPI</span>
-        <span class="skill-tag">AWS</span>
-        <span class="skill-tag">Hugging Face</span>
-        <span class="skill-tag">LangChain</span>
-        <span class="skill-tag">MLflow</span>
+        <span class="skill-tag">EViews</span>
+        <span class="skill-tag">Regression Analysis</span>
+        <span class="skill-tag">Time Series</span>
+        <span class="skill-tag">Panel Data</span>
         <span class="skill-tag">Tableau</span>
         <span class="skill-tag">Power BI</span>
       </div>
@@ -363,73 +339,73 @@
 <!-- SKILLS -->
 <section id="skills" style="border-radius:2rem; padding:5rem 4rem; max-width:1200px; background:var(--surface);">
   <div class="section-label reveal">// skills</div>
-  <h2 class="reveal">What I bring<br>to the table</h2>
-  <p class="section-sub reveal">A broad skill set across the full data science and AI stack — from raw data to deployed, monitored models.</p>
+  <h2 class="reveal">My areas of<br>expertise</h2>
+  <p class="section-sub reveal">A skill set built at the intersection of economic theory, quantitative methods, and modern data tools.</p>
   <div class="skills-grid">
     <div class="skill-cat reveal">
-      <div class="skill-cat-icon">🧠</div>
-      <h3>Machine Learning</h3>
+      <div class="skill-cat-icon">📐</div>
+      <h3>Econometrics</h3>
       <div class="skill-list">
-        <span class="skill-pill">Supervised Learning</span>
-        <span class="skill-pill">Deep Learning</span>
-        <span class="skill-pill">Ensemble Methods</span>
-        <span class="skill-pill">Feature Engineering</span>
-        <span class="skill-pill">Model Tuning</span>
+        <span class="skill-pill">OLS Regression</span>
+        <span class="skill-pill">IV Estimation</span>
+        <span class="skill-pill">Panel Data</span>
+        <span class="skill-pill">Diff-in-Diff</span>
+        <span class="skill-pill">Hypothesis Testing</span>
       </div>
     </div>
     <div class="skill-cat reveal">
-      <div class="skill-cat-icon">💬</div>
-      <h3>NLP & LLMs</h3>
+      <div class="skill-cat-icon">🌍</div>
+      <h3>Macroeconomics</h3>
       <div class="skill-list">
-        <span class="skill-pill">Transformers</span>
-        <span class="skill-pill">Text Classification</span>
-        <span class="skill-pill">RAG Systems</span>
-        <span class="skill-pill">Fine-tuning</span>
-        <span class="skill-pill">Prompt Engineering</span>
+        <span class="skill-pill">GDP Analysis</span>
+        <span class="skill-pill">Inflation Modeling</span>
+        <span class="skill-pill">Fiscal Policy</span>
+        <span class="skill-pill">Monetary Policy</span>
+        <span class="skill-pill">Trade Economics</span>
       </div>
     </div>
     <div class="skill-cat reveal">
-      <div class="skill-cat-icon">👁️</div>
-      <h3>Computer Vision</h3>
+      <div class="skill-cat-icon">🛠️</div>
+      <h3>Data Analysis Tools</h3>
       <div class="skill-list">
-        <span class="skill-pill">Object Detection</span>
-        <span class="skill-pill">Image Segmentation</span>
-        <span class="skill-pill">CNNs</span>
-        <span class="skill-pill">OpenCV</span>
-        <span class="skill-pill">Vision Transformers</span>
-      </div>
-    </div>
-    <div class="skill-cat reveal">
-      <div class="skill-cat-icon">📊</div>
-      <h3>Data Engineering</h3>
-      <div class="skill-list">
-        <span class="skill-pill">ETL Pipelines</span>
-        <span class="skill-pill">Data Warehousing</span>
-        <span class="skill-pill">Apache Spark</span>
-        <span class="skill-pill">Airflow</span>
-        <span class="skill-pill">dbt</span>
-      </div>
-    </div>
-    <div class="skill-cat reveal">
-      <div class="skill-cat-icon">🚀</div>
-      <h3>MLOps & Deployment</h3>
-      <div class="skill-list">
-        <span class="skill-pill">MLflow</span>
-        <span class="skill-pill">Docker / K8s</span>
-        <span class="skill-pill">CI/CD</span>
-        <span class="skill-pill">Model Monitoring</span>
-        <span class="skill-pill">FastAPI</span>
+        <span class="skill-pill">Excel</span>
+        <span class="skill-pill">R Programming</span>
+        <span class="skill-pill">Stata</span>
+        <span class="skill-pill">Python</span>
+        <span class="skill-pill">SQL</span>
       </div>
     </div>
     <div class="skill-cat reveal">
       <div class="skill-cat-icon">📈</div>
-      <h3>Analytics & Viz</h3>
+      <h3>Time Series Analysis</h3>
       <div class="skill-list">
-        <span class="skill-pill">Exploratory Analysis</span>
-        <span class="skill-pill">Statistical Inference</span>
-        <span class="skill-pill">Matplotlib</span>
-        <span class="skill-pill">Plotly</span>
+        <span class="skill-pill">ARIMA</span>
+        <span class="skill-pill">VAR Models</span>
+        <span class="skill-pill">Cointegration</span>
+        <span class="skill-pill">Forecasting</span>
+        <span class="skill-pill">EViews</span>
+      </div>
+    </div>
+    <div class="skill-cat reveal">
+      <div class="skill-cat-icon">📊</div>
+      <h3>Data Visualization</h3>
+      <div class="skill-list">
         <span class="skill-pill">Tableau</span>
+        <span class="skill-pill">Power BI</span>
+        <span class="skill-pill">ggplot2</span>
+        <span class="skill-pill">Matplotlib</span>
+        <span class="skill-pill">Excel Charts</span>
+      </div>
+    </div>
+    <div class="skill-cat reveal">
+      <div class="skill-cat-icon">📝</div>
+      <h3>Research & Writing</h3>
+      <div class="skill-list">
+        <span class="skill-pill">Economic Research</span>
+        <span class="skill-pill">Policy Analysis</span>
+        <span class="skill-pill">Data Storytelling</span>
+        <span class="skill-pill">LaTeX</span>
+        <span class="skill-pill">Academic Writing</span>
       </div>
     </div>
   </div>
@@ -441,30 +417,29 @@
 <section id="projects">
   <div class="section-label reveal">// projects</div>
   <h2 class="reveal">Work I'm proud of</h2>
-  <p class="section-sub reveal">A selection of real-world projects spanning ML, NLP, computer vision, and data analytics.</p>
+  <p class="section-sub reveal">A selection of research projects and data analyses combining economic theory with quantitative methods.</p>
   <div class="projects-grid">
 
     <div class="project-card featured reveal">
       <div class="project-top project-bg-1">
         <div class="project-top-inner">
-          <div class="project-top-icon">🌐</div>
-          <div class="project-top-code">model.predict(user_intent) → action</div>
+          <div class="project-top-icon">🌍</div>
+          <div class="project-top-code">lm(GDP_growth ~ inflation + trade + FDI, data = panel)</div>
         </div>
       </div>
       <div class="project-body">
         <div class="project-badge">Featured</div>
-        <h3>AI-Powered Conversational Analytics Engine</h3>
-        <p class="project-desc">Built an end-to-end NLP pipeline that allows business users to query data warehouses in plain English. Used a fine-tuned LLM to translate natural language to SQL with 91% accuracy on complex queries.</p>
+        <h3>Macroeconomic Determinants of GDP Growth in Sub-Saharan Africa</h3>
+        <p class="project-desc">Panel data regression analysis examining how inflation, trade openness, and foreign direct investment affect GDP growth across 20 Sub-Saharan African economies from 2000–2022. Used fixed-effects and random-effects models in Stata and R.</p>
         <div class="project-tags">
-          <span class="project-tag">Python</span>
-          <span class="project-tag">LangChain</span>
-          <span class="project-tag">GPT-4</span>
-          <span class="project-tag">PostgreSQL</span>
-          <span class="project-tag">FastAPI</span>
-          <span class="project-tag">Streamlit</span>
+          <span class="project-tag">Stata</span>
+          <span class="project-tag">R</span>
+          <span class="project-tag">Panel Data</span>
+          <span class="project-tag">Fixed Effects</span>
+          <span class="project-tag">World Bank Data</span>
         </div>
         <div class="project-links">
-          <a href="#" class="project-link">↗ Live Demo</a>
+          <a href="#" class="project-link">↗ View Report</a>
           <a href="#" class="project-link">↗ GitHub</a>
         </div>
       </div>
@@ -473,23 +448,23 @@
     <div class="project-card reveal">
       <div class="project-top project-bg-2">
         <div class="project-top-inner">
-          <div class="project-top-icon">🔬</div>
-          <div class="project-top-code">precision: 0.94 | recall: 0.91</div>
+          <div class="project-top-icon">💹</div>
+          <div class="project-top-code">ARIMA(1,1,1) → inflation forecast</div>
         </div>
       </div>
       <div class="project-body">
-        <div class="project-badge">Computer Vision</div>
-        <h3>Medical Image Classification Model</h3>
-        <p class="project-desc">CNN-based classifier trained on X-ray datasets to detect pneumonia with 94% precision. Deployed as a REST API with explainability via Grad-CAM heatmaps.</p>
+        <div class="project-badge">Time Series</div>
+        <h3>Inflation Forecasting Using ARIMA Models</h3>
+        <p class="project-desc">Built ARIMA and VAR models to forecast inflation trends using historical CPI data. Evaluated model accuracy with RMSE and compared forecasts against IMF projections.</p>
         <div class="project-tags">
-          <span class="project-tag">PyTorch</span>
-          <span class="project-tag">ResNet</span>
-          <span class="project-tag">Grad-CAM</span>
-          <span class="project-tag">Docker</span>
+          <span class="project-tag">R</span>
+          <span class="project-tag">EViews</span>
+          <span class="project-tag">ARIMA</span>
+          <span class="project-tag">VAR</span>
         </div>
         <div class="project-links">
           <a href="#" class="project-link">↗ GitHub</a>
-          <a href="#" class="project-link">↗ Paper</a>
+          <a href="#" class="project-link">↗ Report</a>
         </div>
       </div>
     </div>
@@ -498,22 +473,22 @@
       <div class="project-top project-bg-3">
         <div class="project-top-inner">
           <div class="project-top-icon">📉</div>
-          <div class="project-top-code">churn_risk_score → 0.87</div>
+          <div class="project-top-code">DiD estimate: β = -0.042 (p &lt; 0.01)</div>
         </div>
       </div>
       <div class="project-body">
-        <div class="project-badge">Predictive Analytics</div>
-        <h3>Customer Churn Prediction System</h3>
-        <p class="project-desc">Gradient boosting model predicting customer churn with 87% AUC. Integrated with CRM system to trigger automated retention workflows in real-time.</p>
+        <div class="project-badge">Policy Evaluation</div>
+        <h3>Impact of Fiscal Policy on Unemployment</h3>
+        <p class="project-desc">Used difference-in-differences estimation to evaluate the effect of government spending shocks on unemployment rates. Dataset sourced from IMF World Economic Outlook.</p>
         <div class="project-tags">
-          <span class="project-tag">XGBoost</span>
-          <span class="project-tag">SHAP</span>
-          <span class="project-tag">MLflow</span>
-          <span class="project-tag">Airflow</span>
+          <span class="project-tag">Stata</span>
+          <span class="project-tag">Diff-in-Diff</span>
+          <span class="project-tag">IMF Data</span>
+          <span class="project-tag">Excel</span>
         </div>
         <div class="project-links">
           <a href="#" class="project-link">↗ GitHub</a>
-          <a href="#" class="project-link">↗ Case Study</a>
+          <a href="#" class="project-link">↗ Slides</a>
         </div>
       </div>
     </div>
@@ -526,8 +501,8 @@
 <!-- CONTACT -->
 <section id="contact">
   <div class="section-label reveal">// contact</div>
-  <h2 class="reveal">Let's build something<br>intelligent together</h2>
-  <p class="contact-sub reveal">Open to collaborations, freelance work, and full-time opportunities. Don't hesitate to reach out!</p>
+  <h2 class="reveal">Let's connect &<br>collaborate</h2>
+  <p class="contact-sub reveal">Open to research collaborations, internships, and opportunities in economics, data analysis, and policy research.</p>
   <div class="contact-grid reveal">
     <a href="mailto:you@email.com" class="contact-card">
       <div class="contact-card-icon">✉️</div>
@@ -537,12 +512,12 @@
     <a href="https://linkedin.com" class="contact-card">
       <div class="contact-card-icon">💼</div>
       <div class="contact-card-label">LinkedIn</div>
-      <div class="contact-card-val">linkedin.com/in/you</div>
+      <div class="contact-card-val">linkedin.com/in/umarfaruk</div>
     </a>
-    <a href="https://github.com" class="contact-card">
+    <a href="https://github.com/UmarFaruk000000" class="contact-card">
       <div class="contact-card-icon">⌨️</div>
       <div class="contact-card-label">GitHub</div>
-      <div class="contact-card-val">github.com/you</div>
+      <div class="contact-card-val">github.com/UmarFaruk000000</div>
     </a>
     <a href="#" class="contact-card">
       <div class="contact-card-icon">📄</div>
@@ -553,7 +528,7 @@
 </section>
 
 <footer>
-  <p>built with intention &amp; data ✦ 2025</p>
+  <p>Umar Faruk ✦ Economics & Data Science ✦ 2025</p>
 </footer>
 
 <script>
